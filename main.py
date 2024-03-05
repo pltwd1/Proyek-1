@@ -26,4 +26,3 @@ max_value = st.sidebar.number_input('Nilai Maksimum Pembayaran', min_value=0, va
 filtered_data = data[(data['payment_value'] >= min_value) & (data['payment_value'] <= max_value)]
 st.write('Data setelah difilter:')
 st.write(filtered_data)
-
